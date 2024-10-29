@@ -45,9 +45,10 @@
 8.  npx parcel index.html
 
 # Upload code from vs code steps:
-  - git add .
-  - git commit -m "updating"
-  - git push
+
+- git add .
+- git commit -m "updating"
+- git push
 
 # Parcel
 
@@ -119,6 +120,20 @@ Type: npm run build
 - Client Side Routing (If we are not calling API then is called Client side routing)
 - Server Side Routing (if we are calling API then this can be called Server side Routing)
 
-1. These are same name 
-  - Chunking | Code Spliting | dynamic-bundling | Lazy Loading | On-demand-loading
-  - (break down your website/app in smaller chunk)
+1. These are same name
+
+- Chunking | Code Spliting | dynamic-bundling | Lazy Loading | On-demand-loading
+- (break down your website/app in smaller chunk)
+
+# Redux Toolkit
+
+- Install @reduxjs/toolkit and react-redux ( npm install @reduxjs/toolkit)
+- Build our store
+- Connect our store to our app
+- Slice (cartSlice)
+- dispatch(action)
+- Selector
+
+# React Redux
+-  npm i react-redux
+

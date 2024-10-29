@@ -11,14 +11,14 @@ class UserClass extends React.Component {
         location: "Default Location",
       },
     };
-    console.log(this.props.name + "Child Constructor");
+    // console.log(this.props.name + "Child Constructor");
   }
 
   // First constructor , then render and then componentDidMount will be called
   // API CALL
 
   async componentDidMount() {
-    console.log(this.props.name + "Child Component Did Mount");
+    // console.log(this.props.name + "Child Component Did Mount");
 
     const data = await fetch("https://api.github.com/users/akshaymarch7");
 
@@ -28,21 +28,21 @@ class UserClass extends React.Component {
       userInfo: json,
     });
 
-    console.log(json);    
+    // console.log(json);    
   }
 
   componentDidUpdate() {
-    console.log("Component did update");
+    // console.log("Component did update");
   }
 
   componentWillUnmount(){
-    console.log("Component will unmount"); 
+    // console.log("Component will unmount"); 
   }
 
   render() {
     const { name, location, avatar_url } = this.state.userInfo;
 
-    console.log(this.props.name + "Child Render");
+    // console.log(this.props.name + "Child Render");
 
     return (
       <div className="user-card">
