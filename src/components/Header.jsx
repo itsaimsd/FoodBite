@@ -24,7 +24,7 @@ const Header = () => {
         {/* Logo and Title */}
         <div className="flex items-center space-x-4">
           <img className="h-12 w-12" src={LOGO_URL} alt="Logo" />
-          <span className="text-xl font-bold text-gray-800">Food Delivery</span>
+          <span className="text-xl font-bold text-gray-800">FoodBite</span>
         </div>
 
         {/* Navigation */}
