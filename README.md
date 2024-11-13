@@ -1,3 +1,6 @@
+# Note: Install CORS Extention First [Link]
+  [Link] : https://mybrowseraddon.com/access-control-allow-origin.html?v=0.2.0&type=install
+
 # Here are screenshorts
 
 ![image](https://github.com/user-attachments/assets/41423264-cebf-4762-884f-d58a8ab57cbd)
